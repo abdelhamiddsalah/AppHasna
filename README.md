@@ -1,16 +1,37 @@
-# hasna
+# Hasna App 🌙
 
-A new Flutter project.
+**Hasna** is an Islamic mobile application developed using **Flutter**, aiming to provide Muslims with daily spiritual support including **Azkar**, **prayer times**, **Qibla direction**, and **authentic Hadiths**.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- 🕋 **Prayer Times**:
+  - Accurate daily prayer timings based on user's location
+  - Countdown to next prayer
+  - Notifications and reminders
 
-A few resources to get you started if this is your first Flutter project:
+- 📖 **Azkar (أذكار)**:
+  - Morning and evening azkar
+  - Azkar after prayer, sleep, and more
+  - Beautiful and readable UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🧭 **Qibla Direction**:
+  - Compass-based direction to the Kaaba
+  - Uses phone sensors + GPS
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🗣️ **Hadith Collection**:
+  - Authentic Hadiths from trusted sources
+  - Daily Hadith feature
+  - Search and filter by topic
+
+## 🛠️ Technologies Used
+
+- Flutter
+- Dart
+- Location services (Geolocator)
+- Compass plugin
+- Local notification package
+- REST API for Hadiths and prayer times (e.g., Aladhan API)
+- Hive / SharedPreferences for local data
+
+## 📦 Project Structure
+
